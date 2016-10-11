@@ -1,0 +1,24 @@
+#foot{
+	background-color: grey;
+	width: auto;
+	height: 130px;
+}
+
+#navlistfoot{
+	color: yellow;
+	list-style-type: none;
+	width: 35%;
+	margin-right: 0px;
+	float: left;
+}
+
+#navlistfoot h3{
+	padding-top: 15px;
+	margin-top: 0px;
+}
+
+#logodrcha{
+	float: right;
+	vertical-align: middle;
+	margin-right: 200px;
+}
