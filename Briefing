@@ -1,0 +1,38 @@
+PRIMER BORRADOR PROYECTO: 
+
+Tundra? 1.0
+
+Se trata de una aplicación web, orientada a empresas, cuyo principal interés reside en la estructuración y organización y gestión 
+de proyectos (esencialmente de tipo web), siguiendo la metodología SCRUM, basada en el desarrollo ágil y en el ciclo de vida solapado
+de las diferentes etapas del desarrollo de software. 
+
+La aplicación constará, en principio, de las siguientes funcionalidades: 
+
+       -Roles y usuarios: Existirán distintos tipos de usuarios, condicionados por sus capacidades, su papel dentro de los proyectos 
+       y sus permisos dentro de la propia aplicación. 
+
+       -Proyectos y grupos de trabajo: Los usuarios (con permiso para ello) serán capaces de crear nuevos proyectos, a los cuales 
+       añadirán participantes y les asignarán una determinada función dentro del mismo (FrontEnd, BackEnd, Documentación, etc).  
+
+       -Salas de chat:  Se posibilitará la comunicación en tiempo de real de aquellos usuarios pertenecientes a un mismo proyecto. 
+       Las salas de chats serán configurables en función de los distintos grupos de trabajo. 
+
+       -Sprints:  La base de SCRUM es la consecución de objetivos “simples” en periodos de tiempo relativamente cortos (nunca 
+       superiores a 2 semanas). Estos objetivos y otras tareas necesarias para conseguirlos, serán definidos, para usuarios y/o 
+       grupos de trabajo, y mostrados a todos los miembros del proyecto.
+
+       -Repositorio: Cada proyecto podrá integrarse dentro de la aplicación, lo que permitirá monitorizar las modificaciones 
+       realizadas, llevar un control de versiones, visualizar y manipular la estructura de carpetas, etc. 
+
+       -Documentación: Cada proyecto dispondrá de un apartado propio donde será posible documentar todo lo relacionado con el mismo: 
+       requisitos de hardware/software, tecnologías empleadas, etc. 
+
+       -Red Social: Será posible añadir a distintos usuarios a una red de contactos personal, de distintos proyectos, con el fin de 
+       mejorar la comunicación entre usuarios con perfiles similares o de interés.  Así mismo será posible observar la participación 
+       de los distintos usuarios en cada proyecto y el rol que han asumido en el mismo. .  
+	
+Distintas funcionalidades podrán ser añadidas o eliminadas en función del proceso de desarrollo de la aplicación y de las necesidades
+del producto. 
+
+La idea surge como resultado de distintas aplicaciones para desarrollo online y gestión de proyectos, como Jira, GitHub, Taiga, 
+y la red social LinkedIn.  
