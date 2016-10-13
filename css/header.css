@@ -1,5 +1,5 @@
 .nav{
-	height: 50px;
+	height: 75px;
 	background-color: black;
 }
 
@@ -7,16 +7,19 @@
 	color: white;
 	font-size: 13px;
 	font-weight: bold;
-	padding: 16px 20px;
+	padding: 28px 20px 20px 20px;
+	margin-top: -12px;
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline-block;
-    vertical-align: middle;
+    
+    height: 75px;
 }
 
 .nav li{
 	display: inline;
 	text-align: center;
+	width: 106px;
 }
 
 .nav li:hover{
@@ -25,6 +28,18 @@
 
 .nav a:hover{
 	background-color: grey;
+	text-decoration: none;
+}
+
+.nav a:focus{
+	background-color: grey;
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:{
+	background-color: grey;
+	text-decoration: none;
 }
 
 ul{
@@ -34,36 +49,67 @@ ul{
 
 #logo{
 	float:left;
+	margin-top: 12px;
 }
 
 .navbar-collapse{
 	width: 619px;
     float: right;
+    margin-top: 12px;
 }
 
-@media (max-width: 866px) {
-  .navbar-collapse.collapse {
+@media (max-width: 835px) {
+  #reducir.collapse.navbar-collapse {
     display: none !important;
+  }
+  #reducir.collapse.navbar-collapse.in {
+    display: block !important;
+  }
+  #reducir nav{
+  	width: 589px;
   }
   .nav li{
 	display: list-item;
 	background-color:black;
+	height: 50px;
+	width: 139px;
   }
   .nav ul{
 	background-color:black;
-  }
-  .navbar-collapse.collapse.in{
-	display: block !important;
+	width: 139px;
   }
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
-  .navbar-header {
+  div.navbar-header {
 	float:right;
+  }
+  .nav li a, .nav li a:active{
+  	width: 139px;
+  	padding: 15px 20px 20px 20px;
+  	margin-top: 0px;
+  	height: 50px;
+  }
+  div.container-fluid{
+  	height: 335px;
   }
 }
 
-.navbar-collapse.collapse.in li a.active {
-	background-color: grey;
-	width: 139px;
+@media (max-width: 768px) {
+	div.navbar-header{
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+}
+
+ li a.active {
+ 	background-color: grey;
+ }
+
+ button.navbar-toggle{
+ 	margin-top: 18px;
+ }
+ .collapse.navbar-collapse{
+ 	margin-left: 50%;
+ 	margin-right: 50%;
  }

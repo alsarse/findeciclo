@@ -1,3 +1,29 @@
+	//Recarga la pagina desde arriba
+	document.addEventListener('DOMContentLoaded', function(){
+		document.getElementsByClassName("back-to-top")[0].click();
+	});
+	
+
+	//Boton go to top
+	var amountScrolled = 300;
+	
+	$(window).scroll(function() {
+		if ( $(window).scrollTop() > amountScrolled ) {
+			$('a.back-to-top').fadeIn('slow');
+		} else {
+			$('a.back-to-top').fadeOut('slow');
+		}
+	});
+	
+	$('a.back-to-top').click(function() {
+		$('html, body').animate({
+			scrollTop: 0
+		}, 700);
+		return false;
+	});
+
+
+
 	$(document).ready(function () {
 		$(document).on("scroll", onScroll);
  

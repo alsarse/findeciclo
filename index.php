@@ -2,8 +2,8 @@
 <?php 
 
 include("header.php");
-
-print "<div>
+?>
+<div>
 		<div id=seccion1 class=container-fluid>
 			
 		</div>
@@ -19,9 +19,10 @@ print "<div>
 		<div id=seccion5 class=container-fluid>
 		
 		</div>
-</div>";
+		<a href='#seccion1' class='back-to-top'><i class='fa fa-chevron-up' aria-hidden='true'></i></a>
+</div>
+<?php 
 
 include("footer.php");
 
  ?>
- </html>

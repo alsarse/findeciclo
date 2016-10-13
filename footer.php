@@ -1,7 +1,5 @@
 <html>
-<?php 
-
-print "<div id=foot>
+<div id=foot>
 <ul id='navlistfoot'>
 <h3>Opciones</h3>
 <li class='lifoot'>Opcion 1</li>
@@ -9,7 +7,6 @@ print "<div id=foot>
 <li class='lifoot'>Opcion 3</li>
 </ul>
 <h2 id=logodrcha>LOGO</h2>
-</div>";
-
- ?>
- </html>
+</div>
+</body>
+</html>
